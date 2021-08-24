@@ -1,4 +1,3 @@
-# Create a new config.py or rename this to config.py file in same dir and import, then extend this class.
 import json
 import os
 
@@ -8,11 +7,9 @@ def get_user_list(config, key):
         return json.load(json_file)[key]
 
 
-# Create a new config.py or rename this to config.py file in same dir and import, then extend this class.
 class Config:
     LOGGER = True
     # REQUIRED
-    # Login to https://my.telegram.org and fill in these slots with the details given by it
 
     API_ID = 6469237 # integer value, dont use ""
     API_HASH = "aaaacf752e28564b49714c7ad51fd48b"
